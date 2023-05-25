@@ -1,0 +1,45 @@
+.number{
+    color:deeppink;
+    font-size: larger;
+    font-weight: 500;
+    line-height: normal;
+}
+.cardContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    padding: 20px;
+    background-color: aqua;
+}
+.question{
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+.option{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.element{
+    width: 80%;
+    background-color: chartreuse;
+    text-align: center;
+    padding: 4px;
+}
+.button{
+    width: 100%;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: brown;
+}
